@@ -10,17 +10,17 @@
                 <div class="sm:col-span-3">
                     <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
                     <div class="mt-2">
-                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 pl-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" >
+                        <input type="text" name="first_name" id="first_name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 pl-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" >
                     </div>
-                    <x-form-error name="first-name" />
+                    <x-form-error name="first_name" />
                 </div>
       
                 <div class="sm:col-span-3">
                     <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
                     <div class="mt-2">
-                        <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 pl-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" >
+                        <input type="text" name="last_name" id="last_name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 pl-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" >
                     </div>
-                    <x-form-error name="last-name" />
+                    <x-form-error name="last_name" />
                 </div>
   
                 
@@ -52,11 +52,11 @@
             <h2 class="text-xl font-semibold leading-7 text-gray-900 mt-10">Room Reservation</h2>
             <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
               <div class="sm:col-span-full">
-                  <label for="check-in-date" class="block text-sm font-medium leading-6 text-gray-900">Check-in Date</label>
+                  <label for="check_in_date" class="block text-sm font-medium leading-6 text-gray-900">Check-in Date</label>
                   <div class="mt-2">
-                      <input id="check-in-date" name="check-in-date" type="date" class="block w-full rounded-md border-0 py-1.5 pl-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" >
+                      <input id="check_in_date" name="check_in_date" type="date" class="block w-full rounded-md border-0 py-1.5 pl-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" >
                   </div>
-                  <x-form-error name="check-in-date" />
+                  <x-form-error name="check_in_date" />
               </div>
   
   
@@ -96,11 +96,11 @@
                 </div>
   
                 <div class="sm:col-span-full">
-                    <label for="special-request" class="block text-sm font-medium leading-6 text-gray-900">Special Request</label>
+                    <label for="special_request" class="block text-sm font-medium leading-6 text-gray-900">Special Request</label>
                     <div class="mt-2">
-                        <textarea id="special-request" name="special-request" rows="4" class="block w-full rounded-md border-0 py-1.5 pl-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                        <textarea id="special_request" name="special_request" rows="4" class="block w-full rounded-md border-0 py-1.5 pl-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
                     </div>
-                    <x-form-error name="special-request" />
+                    <x-form-error name="special_request" />
                 </div>
             </div>
         </div>
